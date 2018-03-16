@@ -1,0 +1,44 @@
+.card-header {
+  padding: 0;
+
+  .retweeted {
+    font-size: 0.5rem;
+    font-style: italic;
+  }
+
+  .card-header-actions {
+    float: right;
+  }
+}
+.card-block {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  grid-template-rows: 1fr;
+  grid-template-areas: 'text photo';
+}
+.card-img {
+  grid-area: photo;
+  text-align: right;
+  img {
+    display: inline-block;
+    width: auto;
+    max-width: 300px;
+    max-height: 100px;
+  }
+}
+.card-text {
+  grid-area: text;
+}
+
+::ng-deep {
+    .modal-body {
+        text-align: center;
+        img {
+            max-width: 100%;
+        }
+    }
+    .modal-footer {
+        padding: 0;
+        text-align: left;
+    }
+}

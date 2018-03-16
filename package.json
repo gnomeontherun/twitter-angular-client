@@ -21,8 +21,17 @@
     "@angular/platform-browser": "^5.2.0",
     "@angular/platform-browser-dynamic": "^5.2.0",
     "@angular/router": "^5.2.0",
+    "@clr/angular": "^0.11.7-patch.1",
+    "@clr/icons": "^0.11.7-patch.1",
+    "@clr/ui": "^0.11.7-patch.1",
+    "@webcomponents/custom-elements": "^1.0.8",
+    "angular2-moment": "^1.8.0",
+    "body-parser": "^1.18.2",
     "core-js": "^2.4.1",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
     "rxjs": "^5.5.6",
+    "twit": "^2.2.9",
     "zone.js": "^0.8.19"
   },
   "devDependencies": {
